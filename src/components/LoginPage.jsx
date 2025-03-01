@@ -5,6 +5,7 @@ import Title from "./general/Title";
 import Option from "./general/Option";
 import { AuthContext } from "../context/AuthProvider.jsx";
 import Button from "./general/Button.jsx";
+import Footer from "./general/Footer.jsx";
 
 const LoginPage = () => {
     const [email, setEmail] = useState("");
@@ -16,7 +17,7 @@ const LoginPage = () => {
             <Header />
             <Title
                 title={"Log-in to your account"}
-                subHeading={"Welcome back! Please enter your details."}
+                subHeading={"Welcome! Please enter your details."}
             />
 
             <InputField
@@ -39,6 +40,8 @@ const LoginPage = () => {
             <Option p1={"Change Password"} p2={"Forgot Password"} />
 
             <Button text="Log In" />
+
+			<Footer text={"Already have an account?"} button={"Log In"}/>
         </>
     );
 };
