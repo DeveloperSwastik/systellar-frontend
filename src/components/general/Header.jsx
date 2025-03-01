@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <>
-            <div className="logo flex justify-between">
+            <div className="flex justify-between">
                 <img className="w-40 " src="src\assets\logo.png" alt="" />
                 {(() => {
                     if (userData.userName != null) {
