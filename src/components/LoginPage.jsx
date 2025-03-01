@@ -9,7 +9,7 @@ const LoginPage = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const {setUserData} = useContext(AuthContext); 
-       
+
     return (
         <>
             <Header />
@@ -23,7 +23,7 @@ const LoginPage = () => {
                 useStateFunction={setEmail}
                 label={"Email"}
                 type={"text"}
-                placeholder={"Enter your email or user id"}
+                placeholder={"Enter your email"}
                 imgSrc={"./src/assets/mail.png"}
             />
 
