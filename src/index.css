@@ -8,9 +8,7 @@ html, body{
   height: 100%;
   padding: 1rem;
 }
-.gap-4 {
-  gap: 2rem /* 16px */;
-}
+
 .px-3 {
   padding-left: 0.75rem /* 12px */;
   padding-right: 0.75rem /* 12px */;
@@ -24,6 +22,9 @@ html, body{
 .p-1 {
   padding: 0.25rem /* 4px */;
 }
+.pt-4 {
+  padding-top: 2.3rem /* 16px */;
+}
 .mx-3 {
   margin-left: 0.75rem /* 12px */;
   margin-right: 0.75rem /* 12px */;
@@ -32,3 +33,4 @@ html, body{
   margin-left: 0.5rem /* 8px */;
   margin-right: 0.5rem /* 8px */;
 }
+

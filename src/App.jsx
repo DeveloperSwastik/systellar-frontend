@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import InputField from "./components/InputField";
 import Title from "./components/Title";
+import Option from "./components/Option";
 
 function App() {
   const [email, setEmail] = useState("")
@@ -30,6 +31,7 @@ function App() {
         placeholder={"Enter your password"}
         imgSrc={"./src/assets/lock.png"}
       />
+      <Option p1={'remember for 30 days'} p2={'Forgot Password'} />
     </>
   );
 }
