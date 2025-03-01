@@ -6,7 +6,7 @@ const Title = (data) => {
             <div className="view-1 flex flex-col  pt-4">
                 <div className="login flex flex-col gap-3 ">
                     <h2 className="font-bold text-xl">
-                        Log-in to your account
+                        {data.title}
                     </h2>
                     {(() => {
                         if (data.subHeading != null) {
