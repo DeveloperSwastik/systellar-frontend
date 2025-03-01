@@ -4,8 +4,8 @@ import InputField from "./components/InputField";
 
 function App() {
   const [email, setEmail] = useState()
-  const [password, setPassword] = useState(second)
-  
+  const [password, setPassword] = useState()
+
   return (
     <>
       <Header />
