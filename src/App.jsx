@@ -15,13 +15,13 @@ function App() {
 
       <InputField
         label={"Email"}
-        placeHolderValue={"Enter your email or user id"}
+        placeholder={"Enter your email or user id"}
         imgSrc={"./src/assets/mail.png"}
       />
 
       <InputField
         label={"Password"}
-        placeHolderValue={"Enter your password"}
+        placeholder={"Enter your password"}
         imgSrc={"./src/assets/lock.png"}
       />
     </>
