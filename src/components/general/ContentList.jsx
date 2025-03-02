@@ -23,7 +23,7 @@ const ContentList = (data) => {
 
                         options.push(
                             <h3 key={`text-${index}`} className="p-3 text-xl">
-                                Connections
+                                {data.list[index]}
                             </h3>
                         );
 
