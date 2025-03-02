@@ -3,9 +3,17 @@ import React from "react";
 const ContentList = (data) => {
     return (
         <>
-            <div className="bg-[#eceaeb] rounded-2xl mt-6">
-                <h3 className="p-3 text-lg">Connections</h3>
-                <hr className="border-t-2 border-[#e2dede]" />
+            <div className="h-75 bg-[#eceaeb] rounded-2xl mt-6 overflow-y-auto">
+                {(() => {
+                    if (data.title != null) {
+                        return (
+                            <div className="sticky top-0 bg-[#eceaeb]">
+                                <h3 className="p-3 text-lg font-semibold">{data.title}</h3>
+                                <hr className="border-t-2 border-[#e2dede]" />
+                            </div>
+                        );
+                    }
+                })()}
                 {(() => {
                     let options = [];
 
@@ -43,9 +51,7 @@ const ContentList = (data) => {
                         if (data.imgSrc1 == null || data.imgSrc2 == null) {
                             division = (
                                 <div key={`div-${index}`}>
-                                    <div
-                                        className="flex justify-between py-1 px-2 items-center"
-                                    >
+                                    <div className="flex justify-between py-1 px-2 items-center">
                                         {options[options.length - 2]}
                                         {options[options.length - 1]}
                                     </div>
@@ -61,9 +67,7 @@ const ContentList = (data) => {
                         } else {
                             division = (
                                 <div key={`div-${index}`}>
-                                    <div
-                                        className="flex justify-between py-1 px-2 items-center"
-                                    >
+                                    <div className="flex justify-between py-1 px-2 items-center">
                                         {options[options.length - 3]}
                                         {options[options.length - 2]}
                                         {options[options.length - 1]}
@@ -81,7 +85,7 @@ const ContentList = (data) => {
 
                         options.push(division);
                     }
-                    
+
                     return options;
                 })()}
             </div>

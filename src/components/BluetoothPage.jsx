@@ -15,6 +15,7 @@ const BluetoothPage = () => {
                 <h3 className="font-bold text-xl text-green-600">ON</h3>
             </div>
             <ContentList
+                title={"Paired Devices"}
                 imgSrc1={"src\\assets\\bluetooth.png"}
                 imgSrc2={"src\\assets\\settings.png"}
                 list={[
@@ -22,6 +23,26 @@ const BluetoothPage = () => {
                     "Systeller CC 002",
                     "Systeller CC 003",
                     "Systeller CC 004",
+                    "Systeller CC 001",
+                    "Systeller CC 002",
+                    "Systeller CC 003",
+                    "Systeller CC 004",
+                ]}
+            />
+            <ContentList
+                title={"Available Devices"}
+                button={"Refresh"}
+                imgSrc1={"src\\assets\\bluetooth.png"}
+                imgSrc2={"src\\assets\\settings.png"}
+                list={[
+                    "Systeller CC 005",
+                    "Systeller CC 006",
+                    "Systeller CC 007",
+                    "Systeller CC 008",
+                    "Systeller CC 005",
+                    "Systeller CC 006",
+                    "Systeller CC 007",
+                    "Systeller CC 008",
                 ]}
             />
         </>
