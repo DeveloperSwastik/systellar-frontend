@@ -28,6 +28,9 @@ html, body{
 .mt-6 {
   margin-top: 1.5rem /* 24px */;
 }
+.mt-7 {
+  margin-top: 2.5rem /* 28px */;
+}
 
 .p-1 {
   padding: 0.25rem /* 4px */;
@@ -51,6 +54,14 @@ html, body{
   padding-left: 0.75rem /* 12px */;
   padding-right: 0.75rem /* 12px */;
 }
+.px-4 {
+  padding-left: 1.5rem /* 16px */;
+  padding-right: 1.5rem /* 16px */;
+}
+.px-5 {
+  padding-left: 2rem /* 16px */;
+  padding-right: 2rem /* 16px */;
+}
 
 .py-1 {
   padding-top: 0.25rem /* 4px */;
@@ -60,9 +71,27 @@ html, body{
   padding-top: 0.5rem /* 8px */;
   padding-bottom: 0.5rem /* 8px */;
 }
+.py-3 {
+  padding-top: 0.75rem /* 12px */;
+  padding-bottom: 0.75rem /* 12px */;
+}
+.py-4 {
+  padding-top: 1rem /* 16px */;
+  padding-bottom: 1rem /* 16px */;
+}
+.py-5 {
+  padding-top: 1.25rem /* 20px */;
+  padding-bottom: 1.25rem /* 20px */;
+}
 
 .pt-4 {
   padding-top: 2.3rem /* 16px */;
+}
+.pt-3 {
+  padding-top: 1.5rem /* 12px */;
+}
+.pb-3 {
+  padding-bottom: 2.5rem /* 12px */;
 }
 
 .mx-2 {
