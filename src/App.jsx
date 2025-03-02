@@ -8,8 +8,8 @@ function App() {
 
     return (
         <>
-            {userData.userEmail == null ? <LoginPage />: <BluetoothPage />}
-            {/* <BluetoothPage /> */}
+            {/* {userData.userEmail == null ? <LoginPage />: <BluetoothPage />} */}
+            <BluetoothPage />
         </>
     );
 }
