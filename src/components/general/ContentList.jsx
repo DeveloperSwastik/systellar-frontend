@@ -1,8 +1,6 @@
 import React from "react";
 
 const ContentList = (data) => {
-    console.log(data.imgSrc2);
-
     return (
         <>
             <div className="bg-[#eceaeb] rounded-2xl mt-6">
@@ -39,15 +37,13 @@ const ContentList = (data) => {
                                 />
                             );
                         }
-                        console.log(options);
 
                         let division;
 
                         if (data.imgSrc1 == null || data.imgSrc2 == null) {
                             division = (
-                                <div>
+                                <div key={`div-${index}`}>
                                     <div
-                                        key={`div-${index}`}
                                         className="flex justify-between py-1 px-2 items-center"
                                     >
                                         {options[options.length - 2]}
@@ -62,25 +58,22 @@ const ContentList = (data) => {
                             );
 
                             options.splice(-2);
-                            
                         } else {
                             division = (
-                                <div>
-                                <div
-                                    key={`div-${index}`}
-                                    className="flex justify-between py-1 px-2 items-center"
-                                >
-                                    {options[options.length - 3]}
-                                    {options[options.length - 2]}
-                                    {options[options.length - 1]}
-                                </div>
+                                <div key={`div-${index}`}>
+                                    <div
+                                        className="flex justify-between py-1 px-2 items-center"
+                                    >
+                                        {options[options.length - 3]}
+                                        {options[options.length - 2]}
+                                        {options[options.length - 1]}
+                                    </div>
 
-                                <hr
-                                    key={`hr-${index}`}
-                                    className="border-t-2 border-[#e2dede]"
-                                />
-                            </div>
-                                
+                                    <hr
+                                        key={`hr-${index}`}
+                                        className="border-t-2 border-[#e2dede]"
+                                    />
+                                </div>
                             );
 
                             options.splice(-3);
