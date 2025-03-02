@@ -32,6 +32,9 @@ html, body{
 .mt-3 {
   margin-top: 0.75rem /* 12px */;
 }
+.mt-4 {
+  margin-top: 1rem /* 16px */;
+}
 
 .p-1 {
   padding: 0.25rem /* 4px */;

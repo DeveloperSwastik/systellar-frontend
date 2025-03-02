@@ -3,8 +3,7 @@ import React from "react";
 const Title = (data) => {
     return (
         <>
-            <div className="view-1 flex flex-col  pt-4">
-                <div className="login flex flex-col gap-3 ">
+            <div className="flex flex-col  pt-4 gap-3">
                     <h2 className="font-bold text-xl">
                         {data.title}
                     </h2>
@@ -13,7 +12,6 @@ const Title = (data) => {
                             return <p>{data.subHeading}</p>;
                         }
                     })()}
-                </div>
             </div>
         </>
     );
