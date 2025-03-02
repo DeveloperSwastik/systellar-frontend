@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
             <div className="flex justify-between">
-                <img className="w-40 " src="src\assets\logo.png" alt="" />
+                <img className="w-45 " src="src\assets\logo.png" alt="" />
                 {(() => {
                     if (userData.userName != null) {
                         return <div className="bg-[#343333] w-15 rounded-full text-white text-center">

@@ -81,7 +81,7 @@ const ContentList = (data) => {
 
                         options.push(division);
                     }
-
+                    
                     return options;
                 })()}
             </div>

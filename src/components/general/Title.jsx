@@ -4,7 +4,7 @@ const Title = (data) => {
     return (
         <>
             <div className="flex flex-col  pt-4 gap-3">
-                    <h2 className="font-bold text-xl">
+                    <h2 className="font-bold text-2xl">
                         {data.title}
                     </h2>
                     {(() => {
