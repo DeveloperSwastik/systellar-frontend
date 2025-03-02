@@ -41,7 +41,7 @@ const LoginPage = () => {
 
             <Button text="Log In" />
 
-			<Footer text={"Already have an account?"} button={"Log In"}/>
+			<Footer text={"Don't have an account ?"} button={"Log In"}/>
         </>
     );
 };
