@@ -5,6 +5,7 @@ import BluetoothPage from "./components/BluetoothPage.jsx";
 import ChargeController from "./components/ChargeController.jsx";
 import FirmwareUpdate from "./components/FirmwareUpdate.jsx";
 import HelpAndSupport from "./components/HelpAndSupport.jsx";
+import SaveAndReset from "./components/general/SaveAndReset.jsx";
 
 function App() {
     const {userData} = useContext(AuthContext);    
@@ -14,8 +15,9 @@ function App() {
             {/* {userData.userEmail == null ? <LoginPage />: <BluetoothPage />} */}
             {/* <BluetoothPage /> */}
             {/* <HelpAndSupport /> */}
-            {/* <ChargeController/> */}
-            <FirmwareUpdate/>
+            <ChargeController/>
+            {/* <FirmwareUpdate/> */}
+            {/* <SaveAndReset/> */}
         </>
     );
 }

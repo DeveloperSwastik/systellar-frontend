@@ -10,6 +10,10 @@ html, body{
   background-color: #e2dede;
 }
 
+.m-1 {
+  margin: 0.75rem /* 12px */;
+}
+
 .mt-1 {
   margin-top: 0.25rem /* 4px */;
 }
@@ -61,6 +65,10 @@ html, body{
 .px-5 {
   padding-left: 2rem /* 16px */;
   padding-right: 2rem /* 16px */;
+}
+.px-6 {
+  padding-left: 3rem /* 24px */;
+  padding-right: 3rem /* 24px */;
 }
 
 .py-1 {
