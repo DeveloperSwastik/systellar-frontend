@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./general/Header";
 import Title from "./general/Title";
 import InputField from "./general/InputField";
 import Option from './general/Option';
 import Button from "./general/Button.jsx";
+import Footer from "./general/Footer.jsx";
 
 
 const SignUpPage = () => {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
   return (
-    // const [email, setEmail] = useState("");
-    // const [password, setPassword] = useState("");
+    
     <>
       <Header />
       <Title
@@ -17,16 +20,16 @@ const SignUpPage = () => {
         subHeading={"Welcome back! Please enter your details."}
       />
       <InputField
-        // useStateVariable={email}
-        // useStateFunction={setEmail}
+        useStateVariable={email}
+        useStateFunction={setEmail}
         label={"Name"}
         type={"text"}
         placeholder={"Enter your name"}
         imgSrc={"./src/assets/user.png"}
       />
       <InputField
-        // useStateVariable={email}
-        // useStateFunction={setEmail}
+        useStateVariable={email}
+        useStateFunction={setEmail}
         label={"Email"}
         type={"text"}
         placeholder={"Enter your email or user id"}
@@ -34,8 +37,8 @@ const SignUpPage = () => {
       />
 
       <InputField
-        // useStateVariable={password}
-        // useStateFunction={setPassword}
+        useStateVariable={password}
+        useStateFunction={setPassword}
         label={"Password"}
         type={"password"}
         placeholder={"Enter your password"}
@@ -44,7 +47,9 @@ const SignUpPage = () => {
 
       <Option p1={"Accept our privicy policy"} p2={"Read policy"} />
 
-      <Button text="Log In" />
+      <Button text="Sign Up" />
+
+      <Footer text={"Already have an account ?"} button={"Log In"}/>
     </>
   );
 };
