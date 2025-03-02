@@ -13,9 +13,9 @@ function App() {
         <>
             {/* {userData.userEmail == null ? <LoginPage />: <BluetoothPage />} */}
             {/* <BluetoothPage /> */}
-            <HelpAndSupport />
+            {/* <HelpAndSupport /> */}
             {/* <ChargeController/> */}
-            {/* <FirmwareUpdate/> */}
+            <FirmwareUpdate/>
         </>
     );
 }
