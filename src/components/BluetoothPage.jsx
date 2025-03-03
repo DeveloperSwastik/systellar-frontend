@@ -16,6 +16,7 @@ const BluetoothPage = () => {
             </div>
             <ContentList
                 title={"Paired Devices"}
+                heightOfComponent={"h-75"}
                 imgSrc1={"src\\assets\\bluetooth.png"}
                 imgSrc2={"src\\assets\\settings.png"}
                 list={[
@@ -32,6 +33,7 @@ const BluetoothPage = () => {
             <ContentList
                 title={"Available Devices"}
                 button={"Refresh"}
+                heightOfComponent={"h-75"}
                 imgSrc1={"src\\assets\\bluetooth.png"}
                 imgSrc2={"src\\assets\\settings.png"}
                 list={[

@@ -3,12 +3,19 @@ import React from "react";
 const ContentList = (data) => {
     return (
         <>
-            <div className="h-75 bg-[#eceaeb] rounded-2xl mt-6 overflow-y-auto">
+            <div
+                className={
+                    data.heightOfComponent +
+                    " bg-[#eceaeb] rounded-2xl mt-6 overflow-y-auto scrollbar-none"
+                }
+            >
                 {(() => {
                     if (data.title != null) {
                         return (
                             <div className="sticky top-0 bg-[#eceaeb]">
-                                <h3 className="p-3 text-lg font-semibold">{data.title}</h3>
+                                <h3 className="p-3 text-lg font-semibold">
+                                    {data.title}
+                                </h3>
                                 <hr className="border-t-2 border-[#e2dede]" />
                             </div>
                         );
