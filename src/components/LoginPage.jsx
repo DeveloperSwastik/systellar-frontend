@@ -37,6 +37,7 @@ const LoginPage = () => {
                 placeholder={"Enter your password"}
                 imgSrc={"./src/assets/lock.png"}
             />
+            
             <Option p1={"Change Password"} p2={"Forgot Password"} />
 
             <Button text="Log In" />

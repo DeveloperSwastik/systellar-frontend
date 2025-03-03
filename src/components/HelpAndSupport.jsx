@@ -9,8 +9,8 @@ const HelpAndSupport = () => {
             <Header />
             <Title title={"Help And Support"} />
             <ContentList
-                title={"Paired Devices"}
-                heightOfComponent={"h-160"}
+                title={"FAQ"}
+                heightOfComponent={"flex-1"}
                 imgSrc1={null}
                 imgSrc2={"src\\assets\\arrow.png"}
                 list={[

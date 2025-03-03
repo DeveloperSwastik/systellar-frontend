@@ -6,12 +6,12 @@ const Header = () => {
 
     return (
         <>
-            <div className="flex justify-between">
-                <img className="w-45 " src="src\assets\logo.png" alt="" />
+            <div className="h-[8%] flex justify-between items-center">
+                <img className="h-full w-[50%] " src="src\assets\logo.png" alt="" />
                 {(() => {
                     if (userData.userName != null) {
-                        return <div className="bg-[#343333] w-15 rounded-full text-white text-center">
-                            <p className="text-4xl mt-2">
+                        return <div className="h-18  bg-[#343333] w-18 rounded-full text-white text-center">
+                            <p className="h-full text-4xl mt-2">
                                 {userData.userName[0].toUpperCase()}
                             </p>
                         </div>
