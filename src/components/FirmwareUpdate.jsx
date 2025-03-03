@@ -3,7 +3,7 @@ import Header from "./general/Header";
 import Title from "./general/Title";
 import Button from "./general/Button";
 
-function FirmwareUpdate() {
+const FirmwareUpdate = () => {
     return (
         <>
             <Header />
