@@ -1,15 +1,17 @@
 import React from "react";
 import Header from "./general/Header";
 import ContentList from "./general/ContentList";
+import Title from "./general/Title";
 
 const BluetoothPage = () => {
     return (
         <>
             <Header />
-            <div className="h-auto flex pt-4 items-center">
+            {/* <div className="h-auto flex pt-4 items-center">
                 <h2 className="h-full font-bold text-2xl">Bluetooth</h2>
-                {/* <img className="h-full w-10" src="src\assets\qr-code.png" alt="" /> */}
-            </div>
+                <img className="h-full w-10" src="src\assets\qr-code.png" alt="" />
+            </div> */}
+            <Title title={"Bluetooth"} />
             <div className="h-auto flex py-4 justify-between items-center">
                 <h3 className="h-full font-sm text-xl">Bluetooth Connection</h3>
                 <h3 className="h-full font-bold text-xl text-green-600">ON</h3>
