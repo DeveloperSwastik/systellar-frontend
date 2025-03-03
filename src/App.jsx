@@ -12,12 +12,11 @@ function App() {
 
     return (
         <>
-            {/* {userData.userEmail == null ? <LoginPage />: <BluetoothPage />} */}
+            {userData.userEmail == null ? <LoginPage />: <BluetoothPage />}
             {/* <BluetoothPage /> */}
             {/* <HelpAndSupport /> */}
-            <ChargeController/>
             {/* <FirmwareUpdate/> */}
-            {/* <SaveAndReset/> */}
+            {/* <ChargeController/> */}
         </>
     );
 }

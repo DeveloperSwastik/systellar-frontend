@@ -117,3 +117,6 @@ html, body{
   margin-right: 0.75rem /* 12px */;
 }
 
+.scrollbar-none::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari */
+}
