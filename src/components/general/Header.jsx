@@ -10,7 +10,7 @@ const Header = () => {
                 <img className="h-full w-[50%] " src="src\assets\logo.png" alt="" />
                 {(() => {
                     if (userData.userName != null) {
-                        return <div className="h-18  bg-[#343333] w-18 rounded-full text-white text-center">
+                        return <div className="h-16 w-16 text-white text-center last:bg-[#343333] rounded-full">
                             <p className="h-full text-4xl mt-2">
                                 {userData.userName[0].toUpperCase()}
                             </p>

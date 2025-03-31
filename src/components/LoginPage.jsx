@@ -6,7 +6,6 @@ import Option from "./general/Option";
 import { AuthContext } from "../context/AuthProvider.jsx";
 import Button from "./general/Button.jsx";
 import Footer from "./general/Footer.jsx";
-import BluetoothPage from "./BluetoothPage.jsx";
 
 const LoginPage = () => {
     const [email, setEmail] = useState("");

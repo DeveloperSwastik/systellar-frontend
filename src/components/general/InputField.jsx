@@ -21,7 +21,7 @@ const InputField = (data) => {
                         onChange={(event) =>
                             data.useStateFunction(event.target.value)
                         }
-                        className="text-white w-[95%] outline-none"
+                        className="text-white w-[95%] outline-none bg-transparent"
                         type={data.type}
                         placeholder={data.placeholder}
                         autoComplete="current-password"
@@ -33,7 +33,7 @@ const InputField = (data) => {
                         onChange={(event) =>
                             data.useStateFunction(event.target.value)
                         }
-                        className="text-white w-[95%] outline-none"
+                        className="text-white w-[95%] outline-none bg-transparent"
                         type={data.type}
                         placeholder={data.placeholder}
                         autoComplete="username"
@@ -45,7 +45,7 @@ const InputField = (data) => {
                         onChange={(event) =>
                             data.useStateFunction(event.target.value)
                         }
-                        className="text-white w-[95%] outline-none"
+                        className="text-white w-[95%] outline-none bg-transparent"
                         type={data.type}
                         placeholder={data.placeholder}
                     />
