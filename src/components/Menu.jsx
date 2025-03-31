@@ -1,6 +1,6 @@
 import React from "react";
 
-const User = () => {
+const Menu = () => {
   return (
     <>
       <div className="flex gap-12 ">
@@ -58,4 +58,4 @@ const User = () => {
   );
 };
 
-export default User;
+export default Menu;
