@@ -11,9 +11,8 @@ const LoginPage = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const { setUserData } = useContext(AuthContext);
-
+ 
     function login() {
-        let auth;
         if (email == "admin@admin.com" && password == "123") {
             setUserData({
                 userName: "Admin",
@@ -42,7 +41,7 @@ const LoginPage = () => {
                     label={"Email"}
                     type={"text"}
                     placeholder={"Enter your email or user id"}
-                    imgSrc={"./src/assets/mail.png"}
+                    imgSrc={"./mail.png"}
                 />
 
                 <InputField
@@ -51,7 +50,7 @@ const LoginPage = () => {
                     label={"Password"}
                     type={"password"}
                     placeholder={"Enter your password"}
-                    imgSrc={"./src/assets/lock.png"}
+                    imgSrc={"./lock.png"}
                 />
             </form>
 

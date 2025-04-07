@@ -1,6 +1,7 @@
 import React, { createContext, useState } from "react";
 
 const AuthProvider = ({children}) => {
+    const [menuStatus, setMenuStatus] = useState(false)
     const [userData, setUserData] = useState({
         userName: null,
         userId: null,
@@ -10,7 +11,7 @@ const AuthProvider = ({children}) => {
 
     return (
         <div>
-            <AuthContext.Provider value={{userData, setUserData}}>
+            <AuthContext.Provider value={{userData, setUserData, menuStatus, setMenuStatus}}>
                 {children} 
             </AuthContext.Provider>
         </div>

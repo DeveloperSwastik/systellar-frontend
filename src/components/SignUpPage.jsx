@@ -25,7 +25,7 @@ const SignUpPage = () => {
         label={"Name"}
         type={"text"}
         placeholder={"Enter your name"}
-        imgSrc={"./src/assets/user.png"}
+        imgSrc={"./user.png"}
       />
       <InputField
         useStateVariable={email}
@@ -33,7 +33,7 @@ const SignUpPage = () => {
         label={"Email"}
         type={"text"}
         placeholder={"Enter your email or user id"}
-        imgSrc={"./src/assets/mail.png"}
+        imgSrc={"./mail.png"}
       />
 
       <InputField
@@ -42,7 +42,7 @@ const SignUpPage = () => {
         label={"Password"}
         type={"password"}
         placeholder={"Enter your password"}
-        imgSrc={"./src/assets/lock.png"}
+        imgSrc={"./lock.png"}
       />
 
       <Option p1={"Accept our privicy policy"} p2={"Read policy"} />

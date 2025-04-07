@@ -9,6 +9,9 @@ body {
     height: 100vh;
     background-color: #e2dede;
 }
+main {
+    border: 2px solid rgb(255, 152, 152);
+}
 
 .m-1 {
     margin: 0.75rem /* 12px */;
@@ -121,9 +124,6 @@ body {
 }
 .pt-3 {
     padding-top: 1.5rem /* 12px */;
-}
-main {
-    border: 2px solid red;
 }
 .pb-2 {
     padding-bottom: 1.2rem /* 8px */;

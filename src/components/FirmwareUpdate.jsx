@@ -9,7 +9,7 @@ const FirmwareUpdate = () => {
             <Header />
             <Title title={"Firmware Update"} />
 
-            <div className="bg-[#eceaeb] bg-[url('./src/assets/FirmwareBackGround.png')] bg-cover bg-center w-full h-80 mt-7 rounded-xl ">
+            <div className="bg-[#eceaeb] bg-[url('./FirmwareBackGround.png')] bg-cover bg-center w-full h-80 mt-7 rounded-xl ">
                 <div className="text-8xl font-bold p-5">
                     <p className="text-black">0<span className="text-orange-500">1</span></p>
                 </div>

@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./general/Header";
 import ContentList from "./general/ContentList";
 import Title from "./general/Title";
 
 const BluetoothPage = () => {
+    const [connectedDevice, setConnectedDevice] = useState("")
     return (
         <>
             <Header />
             {/* <div className="h-auto flex pt-4 items-center">
                 <h2 className="h-full font-bold text-2xl">Bluetooth</h2>
-                <img className="h-full w-10" src="src\assets\qr-code.png" alt="" />
+                <img className="h-full w-10" src=".\qr-code.png" alt="" />
             </div> */}
             <Title title={"Bluetooth"} />
             <div className="h-auto flex py-4 justify-between items-center">
@@ -19,8 +20,8 @@ const BluetoothPage = () => {
             <ContentList
                 title={"Paired Devices"}
                 heightOfComponent={"flex-1"}
-                imgSrc1={"src\\assets\\bluetooth.png"}
-                imgSrc2={"src\\assets\\settings.png"}
+                imgSrc1={"./bluetooth.png"}
+                imgSrc2={"./settings.png"}
                 list={[
                     "Systeller CC 001",
                     "Systeller CC 002",
@@ -36,8 +37,8 @@ const BluetoothPage = () => {
                 title={"Available Devices"}
                 button={"Refresh"}
                 heightOfComponent={"flex-1"}
-                imgSrc1={"src\\assets\\bluetooth.png"}
-                imgSrc2={"src\\assets\\settings.png"}
+                imgSrc1={"./bluetooth.png"}
+                imgSrc2={"./settings.png"}
                 list={[
                     "Systeller CC 005",
                     "Systeller CC 006",
