@@ -13,7 +13,7 @@ const LoginPage = () => {
     const { setUserData } = useContext(AuthContext);
  
     function login() {
-        if (email == "admin@admin.com" && password == "123") {
+        if (email == "admin@systeller.com" && password == "123") {
             setUserData({
                 userName: "Admin",
                 userId: "ADMIN001",
@@ -58,7 +58,7 @@ const LoginPage = () => {
 
             <Button text="Log In" onClickFunction={login} />
 
-            <Footer text={"Don't have an account ?"} button={"Log In"} />
+            {/* <Footer text={"Don't have an account ?"} button={"Sign In"} /> */}
         </>
     );
 };

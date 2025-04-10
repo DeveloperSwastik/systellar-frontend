@@ -12,7 +12,7 @@ const HelpAndSupport = () => {
                 title={"FAQ"}
                 heightOfComponent={"flex-1"}
                 imgSrc1={null}
-                imgSrc2={".\arrow.png"}
+                imgSrc2={"./arrow.png"}
                 list={[
                     "What is charge controller?",
                     "Why do we use charge controller?",

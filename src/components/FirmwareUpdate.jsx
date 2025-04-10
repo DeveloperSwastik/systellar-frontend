@@ -18,13 +18,13 @@ const FirmwareUpdate = () => {
                     <h2 className="px-4 font-bold text-2xl ">
                         Charge Controller
                     </h2>
-                    <p className="px-4 text-lg">zxcv765a</p>
+                    <p className="px-4 text-lg">UPAWE2130</p>
                 </div>
             </div>
 
-            <div className="bg-[#eceaeb] py-5 mt-7 rounded-xl flex flex-col justify-center">
+            <div className="bg-[#eceaeb] py-5 mt-5 mb-5 rounded-xl flex flex-col justify-center">
                 <h2 className="px-4 font-bold text-lg ">Firmware Version</h2>
-                <p className="px-4 ">vp123(1456ev)</p>
+                <p className="px-4 ">Version 0.1</p>
             </div>
 
             <Button text="Download and Install" />
