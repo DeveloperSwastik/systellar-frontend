@@ -3,16 +3,16 @@ import React from "react";
 function IncreaseAndDecrease() {
     return (
         <>
-            <div className="flex justify-center gap-5 mx-4 items-center">
-                <button className="bg-[#f6a55a]  px-4  rounded-lg text-5xl font-bold py-6">
+            <div className="h-14 w-full flex justify-center gap-5 items-center">
+                <button className="h-full w-2/12 bg-[#f6a55a] rounded-lg text-4xl font-bold">
                     -
                 </button>
                 <input
-                    className="bg-white w-35 py-3 text-center text-xl rounded-lg outline-none "
+                    className="h-full w-8/12 bg-white text-center text-xl rounded-lg outline-none "
                     type="number"
                     placeholder="Input"
                 />
-                <button className="bg-[#f6a55a]  px-4  rounded-lg text-5xl font-bold py-6">
+                <button className="h-full w-2/12 bg-[#f6a55a] rounded-lg text-4xl font-bold">
                     +
                 </button>
             </div>
